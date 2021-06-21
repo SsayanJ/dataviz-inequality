@@ -196,7 +196,7 @@ polar_plot.add_trace(go.Scatterpolar(
 # polar_plot.add_trace(go.Scatterpolar(
 # r=region_db_2010_2019["Transparency Score"], theta=region_db_2010_2019["Region"], name="Transparency Score"))
 violin_chart = px.violin(mean_db.dropna(
-    subset=['Region']), y='Gini Coeff', color='Region')
+    subset=['Region']), y='Gini Coeff', color='Region', box=True)
 
 
 # Tools for callbacks
@@ -468,14 +468,9 @@ def update_map(years):
     Input("group-violin", 'value')
 )
 def update_violin_chart(indicator, group):
-    # if group == 'IncomeGroup':
-    #     df = mean_per_incomegroup(main_db)
-    # elif group == 'Regime Type':
-    #     df = mean_per_regime(main_db)
-    # else:
-    #     df = mean_per_region(main_db)
+
     violin_fig = px.violin(mean_db.dropna(
-        subset=[group]), y=indicator, color=group)
+        subset=[group]), y=indicator, color=group, box=True)
 
     return violin_fig
 
