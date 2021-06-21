@@ -9,7 +9,7 @@ The application is available at this link:
 
 ### Datasets:
 
-[Gini Coefficient from the World Bank] (https://data.worldbank.org/indicator/SI.POV.GINI)  
-[GDP per capita from the World Bank] (https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)  
-[Democracy index from Wikipedia based on EIU] (https://en.wikipedia.org/wiki/Democracy_Index)  
-[Transparency score from Transparency International] (https://www.transparency.org/en/cpi/2020/index/nzl)  
+[Gini Coefficient from the World Bank](https://data.worldbank.org/indicator/SI.POV.GINI)  
+[GDP per capita from the World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)  
+[Democracy index from Wikipedia based on EIU](https://en.wikipedia.org/wiki/Democracy_Index)  
+[Transparency score from Transparency International](https://www.transparency.org/en/cpi/2020/index/nzl)  
